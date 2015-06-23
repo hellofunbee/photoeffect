@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <hello.world.horilist.HorizontalListView
+        android:background="@android:color/black"
+        android:id="@+id/h_listview"
+        android:layout_width="fill_parent"
+        android:layout_height="50dp" >
+    </hello.world.horilist.HorizontalListView>
+
+</LinearLayout>

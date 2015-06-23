@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="translucent_background">#00000000</color>
+    <color name="textColorPrimary">#ffffffff</color>
+    <color name="gray">#cb000000</color>
+    <color name="white">#f0ffffff</color>
+    <color name="black">#ff000000</color>
+    <color name="white_l">#aaffffff</color>
+    <color name="l_yellow">#ffffffcc</color>
+
+</resources>
