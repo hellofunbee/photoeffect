@@ -68,7 +68,10 @@ import HaoRan.ImageFilter.Textures.TextileTexture;
 import HaoRan.ImageFilter.Textures.TexturerFilter;
 import HaoRan.ImageFilter.Textures.WoodTexture;
 import android.graphics.Color;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class Filters {
 public static IImageFilter getFilter(int l,Mapp app){
 	IImageFilter filter = null;

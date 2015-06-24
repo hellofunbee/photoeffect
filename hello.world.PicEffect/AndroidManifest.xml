@@ -27,7 +27,7 @@
             android:name="hello.world.piceffect.PhotoEffect"
             android:windowSoftInputMode="stateUnspecified|adjustPan" >
         </activity>
-        <activity android:name="hello.world.home.FragmentPage2" >
+        <activity android:name="hello.world.home.splash" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />

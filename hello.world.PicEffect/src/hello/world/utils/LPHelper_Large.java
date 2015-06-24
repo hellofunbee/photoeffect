@@ -7,7 +7,10 @@ import android.graphics.BitmapFactory;
 import android.graphics.Matrix;
 import android.graphics.BitmapFactory.Options;
 import android.media.ExifInterface;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class LPHelper_Large {
 
 	public static Bitmap loadBitmap(String imgpath, int sw, int sh) {

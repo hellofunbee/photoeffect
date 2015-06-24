@@ -17,7 +17,10 @@ import android.graphics.drawable.Drawable;
 import android.text.StaticLayout;
 import android.text.TextPaint;
 import android.text.Layout.Alignment;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class FD_Sticker extends Drawable {
 
 	private Drawable d_tool;

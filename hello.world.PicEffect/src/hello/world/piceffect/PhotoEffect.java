@@ -39,7 +39,10 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.RelativeLayout.LayoutParams;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class PhotoEffect extends Activity implements OnClickListener {
 
 	private static final int NONE = 0;

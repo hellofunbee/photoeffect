@@ -8,7 +8,10 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.BaseAdapter;
 import android.widget.ImageView;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class HorizontalListViewAdapter extends BaseAdapter {
 
 	public int [] filter= Pens.getPen_filter();

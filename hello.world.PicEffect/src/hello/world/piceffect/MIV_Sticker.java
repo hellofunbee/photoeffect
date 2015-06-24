@@ -1,6 +1,5 @@
 package hello.world.piceffect;
 
-import hello.world.builder.piceffect.R;
 import hello.world.domain.Mapp;
 import hello.world.piceffect.FD_Sticker.OnTexted;
 import hello.world.utils.MPoint;
@@ -11,11 +10,13 @@ import android.graphics.BitmapFactory;
 import android.graphics.Canvas;
 import android.graphics.Matrix;
 import android.graphics.Rect;
-import android.graphics.drawable.Drawable;
 import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.widget.ImageView;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class MIV_Sticker extends ImageView {
 
 	private final int STATUS_Touch_SINGLE = 1;

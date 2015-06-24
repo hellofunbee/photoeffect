@@ -14,22 +14,15 @@ import android.util.Log;
 import android.view.MotionEvent;
 import android.widget.ImageView;
 
-/**
- * 底图不变，浮层缩�?
- * 
- * @author yanglonghui
- * 
- */
+
 public class CropIV extends ImageView {
 
-	// 单点触摸的时�?
 	private float oldX = 0;
 	private float oldY = 0;
 
-	// 状�??
-	private final int STATUS_Touch_SINGLE = 1;// 单点
-	private final int STATUS_TOUCH_MULTI_START = 2;// 多点�?�?
-	private final int STATUS_TOUCH_MULTI_TOUCHING = 3;// 多点拖拽�?
+	private final int STATUS_Touch_SINGLE = 1;
+	private final int STATUS_TOUCH_MULTI_START = 2;
+	private final int STATUS_TOUCH_MULTI_TOUCHING = 3;
 
 	private int mStatus = STATUS_Touch_SINGLE;
 
@@ -50,8 +43,8 @@ public class CropIV extends ImageView {
 	public int currentEdge = EDGE_NONE;
 
 	protected float oriRationWH = 0;// 原始宽高比率
-	protected final float maxZoomOut = 5.0f;// �?大扩大到多少�?
-	protected final float minZoomIn = 0.333333f;// �?小缩小到多少�?
+	protected final float maxZoomOut = 5.0f;// 最大扩大到多少
+	protected final float minZoomIn = 0.333333f;// 最小小缩小到多少
 
 	protected Drawable mDrawable;// 原图
 	protected FloatDrawable mFloatDrawable;// 浮层
@@ -89,7 +82,7 @@ public class CropIV extends ImageView {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-		mFloatDrawable = new FloatDrawable(context);// 头像选择�?
+		mFloatDrawable = new FloatDrawable(context);
 	}
 
 	public void setDrawable(Drawable mDrawable, int cropWidth, int cropHeight) {
@@ -120,7 +113,6 @@ public class CropIV extends ImageView {
 			mStatus = STATUS_Touch_SINGLE;
 		}
 
-		// Log.v("count currentTouch"+currentTouch, "-------");
 
 		switch (event.getAction()) {
 		case MotionEvent.ACTION_DOWN:
@@ -129,7 +121,6 @@ public class CropIV extends ImageView {
 			currentEdge = getTouchEdge((int) oldX, (int) oldY);
 			isTouchInSquare = mDrawableFloat.contains((int) event.getX(),
 					(int) event.getY());
-			Log.v("currentEdge�?" + currentEdge, "-------");
 			break;
 
 		case MotionEvent.ACTION_UP:

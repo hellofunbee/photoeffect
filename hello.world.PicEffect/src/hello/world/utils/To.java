@@ -1,7 +1,10 @@
 package hello.world.utils;
 
 import android.content.Context;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class To {
 	    /** 
 	     * 根据手机的分辨率从 dip 的单位 转成为 px(像素) 

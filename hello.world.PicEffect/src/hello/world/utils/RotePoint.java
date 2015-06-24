@@ -1,5 +1,8 @@
 package hello.world.utils;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class RotePoint {
 	/**
 	 * 计算点P(x,y)与X轴正方向的夹角

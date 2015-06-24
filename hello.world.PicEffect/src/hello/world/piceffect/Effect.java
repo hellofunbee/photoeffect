@@ -25,7 +25,10 @@ import android.os.SystemClock;
 import android.util.AttributeSet;
 import android.view.View;
 import android.widget.Toast;
-
+/**
+ * @since 2015 06 24
+ * @author funbee {@link https://github.com/hellofunbee/gifEffect}
+ */
 public class Effect extends CropIV {
 	private boolean notInitial = true;
 	private Mapp app;
